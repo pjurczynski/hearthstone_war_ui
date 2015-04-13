@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'simple_form'
+gem 'activeresource', require: 'active_resource'
 
 group :development do
   gem 'better_errors'
