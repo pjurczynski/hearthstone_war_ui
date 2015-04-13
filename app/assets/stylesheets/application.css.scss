@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+h3.panel-heading {
+  margin: 0;
+}
+
+.panel-body {
+  height: 200px;
+}

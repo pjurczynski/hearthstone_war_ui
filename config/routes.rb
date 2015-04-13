@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  resources :decks, only: :index
+
+  root to: 'decks#index'
 end
